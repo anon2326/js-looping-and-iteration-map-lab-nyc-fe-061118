@@ -3,4 +3,7 @@ function lowerCaseDrivers(drivers){
   let lcdrivers = drivers.map(driver => driver.toLowerCase());
   return lcdrivers;
 }
-  
+
+function nameToAttributes(drivers){
+  drivers.map()
+}
