@@ -11,4 +11,5 @@ function nameToAttributes(drivers){
     let lastName = newname[1];
     return {firstname:firstName, lastname:lastName};
   })
+  return splitdrivers;
 }
