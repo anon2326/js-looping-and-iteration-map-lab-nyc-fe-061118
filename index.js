@@ -17,12 +17,11 @@ return {firstName:firstname, lastName:lastname};
 }
 
 function attributesToPhrase(drivers){
- drivers.map(Phraseru)
- return nameOf + " is from " + placeOf;
+ return drivers.map(Phraseru);
 }
 
 function Phraseru(drivers){
   nameOf = drivers['name'];
   placeOf = drivers['hometown'];
-  return nameOf, placeOf;
+  return nameOf + " is from " + placeOf;
 }
