@@ -23,5 +23,5 @@ function attributesToPhrase(drivers){
 function Phraseru(drivers){
   nameOf = drivers.name;
   placeOf = drivers.hometown;
-  return;
+  return nameOf, placeOf;
 }
