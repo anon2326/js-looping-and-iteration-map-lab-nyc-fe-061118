@@ -16,6 +16,10 @@ let lastname = newname[1];
 return {firstName:firstname, lastName:lastname};
 }
 
-function attributesToPhrase(driver){
-  
+function attributesToPhrase(drivers){
+ drivers.map(Phraseru)
+}
+
+function Phraseru(drivers){
+  return driver.name + " is from " + driver.hometown;
 }
