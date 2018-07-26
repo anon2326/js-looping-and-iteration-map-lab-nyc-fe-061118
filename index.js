@@ -22,7 +22,7 @@ function attributesToPhrase(drivers){
 }
 
 function Phraseru(drivers){
-  nameOf = drivers.name;
-  placeOf = drivers.hometown;
+  nameOf = drivers['name'];
+  placeOf = drivers['hometown'];
   return nameOf, placeOf;
 }
