@@ -18,6 +18,7 @@ return {firstName:firstname, lastName:lastname};
 
 function attributesToPhrase(drivers){
  drivers.map(Phraseru)
+ return nameOf + " is from " + placeOf;
 }
 
 function Phraseru(drivers){
