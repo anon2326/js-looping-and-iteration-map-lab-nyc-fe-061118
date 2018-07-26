@@ -11,7 +11,8 @@ function nameToAttributes(drivers){
 
 function createNameObject(driver){
 let newname = driver.split(" ");
-let firstName = newname[0];
-let lastName = newname[1];
-return {firstname:firstName, lastname:lastName};
+let firstname = newname[0];
+let lastname = newname[1];
+return {firstName:firstname, lastName:lastname};
 }
+  
