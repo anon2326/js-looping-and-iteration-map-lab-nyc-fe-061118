@@ -9,7 +9,7 @@ function nameToAttributes(drivers){
   return splitdrivers;
 }
 
-function createnameObject(drivers){
+function createNameObject(drivers){
 let newname = driver.split(" ");
 let firstName = newname[0];
 let lastName = newname[1];
